@@ -35,8 +35,15 @@ header > .interface {
 }
 
 header a{
-    color: #ffffff;
+    color: #7d7d7d;
     text-decoration: none;
+    display: inline-block;
+    trasition: .2s;
+}
+
+header a:hover{
+    color: #fcfdfd;
+    transform: scale(1.3);
 }
 
 header nav ul{
@@ -57,6 +64,11 @@ header .btn-contato button{
     border-radius: 30px;
     cursor: pointer;
 } 
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 10px #fcfdfd;
+}
+
 /* Imagem */
 
 .logo img {
